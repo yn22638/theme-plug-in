@@ -1,21 +1,31 @@
 {
-    "name": "Go",
-    "displayName": "yn",
-    "description": "Go",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.66.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Curry Theme",
-                "uiTheme": "hc-black",
-                "path": "./themes/Curry Theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "yn",
+  "displayName": "yn",
+  "description": "Go To Up",
+  "publisher": "yn-theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "install vsce": "npm install vsce -g --save vsce",
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yn22638/theme-plug-in"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Curry Theme",
+        "uiTheme": "hc-black",
+        "path": "./themes/Curry Theme-color-theme.json"
+      }
+    ]
+  }
 }

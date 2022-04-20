@@ -1,7 +1,7 @@
 {
   "name": "yn",
   "displayName": "yn",
-  "description": "Go To Up",
+  "description": "Let's Go!",
   "publisher": "yn-theme",
   "version": "0.0.1",
   "engines": {
@@ -22,9 +22,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Curry Theme",
-        "uiTheme": "hc-black",
-        "path": "./themes/curry-theme-color-theme.json"
+        "label": "curry-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/curry-color-theme.json"
       }
     ]
   }

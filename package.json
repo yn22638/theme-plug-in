@@ -24,7 +24,7 @@
       {
         "label": "Curry Theme",
         "uiTheme": "hc-black",
-        "path": "./themes/Curry Theme-color-theme.json"
+        "path": "./themes/curry-theme-color-theme.json"
       }
     ]
   }

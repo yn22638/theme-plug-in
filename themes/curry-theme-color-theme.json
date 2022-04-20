@@ -9,7 +9,7 @@
 		"tab.activeBackground": "#2c2c2c", // 选中的背景色
 		"tab.activeForeground": "#e7e2e2", // 关闭按钮颜色
 		"tab.unfocusedHoverBackground": "#2c2c2c", // 鼠标移入后的背景色
-		"editor.background": "#2c2c2c", // 编辑器背景色
+		"editor.background": "#222222", // 编辑器背景色
 		"editor.foreground": "#eeffff", // 编辑器默认前景色
 		"editor.lineHighlightBackground": "#494545", // 光标所在行高亮内容的背景颜色。
 		"panelTitle.activeForeground": "#eaeff3", // 活动面板的标题颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
@@ -20,7 +20,7 @@
 		"button.background": "#2186ee", // 按钮背景色 设置界面有按钮
 		"editorCursor.foreground": "#e0f7f4", // 编辑器光标颜色
 		"activityBar.background": "#2c2c2c", // 活动栏背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
-		"sideBar.background": "#1b1b1b", // 侧边栏背景色。侧边栏是资源管理器和搜索等视图的容器。
+		"sideBar.background": "#2c2c2c", // 侧边栏背景色。侧边栏是资源管理器和搜索等视图的容器。
 		"editorLineNumber.activeForeground": "#2186ee", // 编辑器活动行号的颜色
 		"editorLineNumber.foreground": "#f6f6f0", // 编辑器行号的颜色。
 		"editorIndentGuide.background": "#464741", // 编辑器缩进参考线的颜色。
@@ -31,20 +31,20 @@
 		"activityBarBadge.background": "#2186ee", // 活动通知徽章背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
 		"editorHoverWidget.background": "#2c2c2c", // 编辑器悬停提示的背景颜色
 		// 
-		"list.highlightForeground": "#f8f8f2", // 在列表或树中搜索时，其中匹配内容的高亮颜色
+		"list.highlightForeground": "#75a7ab", // 在列表或树中搜索时，其中匹配内容的高亮颜色
 		"dropdown.listBackground": "#ee2121", // 下拉列表背景色。
 		"list.activeSelectionBackground": "#75715E", // 已选项在列表或树活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有。
 		"quickInputList.focusBackground": "#414339", // 焦点项目的快速选择器背景色
 		"list.inactiveSelectionBackground": "#414339", // 已选项在列表或树非活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有。
-		"list.hoverBackground": "#3e3d32", // 使用鼠标移动项目时，列表或树的背景颜色。
-		"list.dropBackground": "#414339", // 使用鼠标移动项目时，列表或树进行拖放的背景颜色。
+		"list.hoverBackground": "#797979a6", // 使用鼠标移动项目时，列表或树的背景颜色。
+		"list.dropBackground": "#a58b98", // 使用鼠标移动项目时，列表或树进行拖放的背景颜色。
 		"selection.background": "#878b9180", //工作台所选文本的背景颜色(例如输入字段或文本区域)。注意，本设置不适用于编辑器。
 		"editor.selectionHighlightBackground": "#575b6180", // 具有与所选项相关内容的区域的颜色。颜色必须透明，以免隐藏下面的修饰效果。
 		"editor.wordHighlightBackground": "#4a4a7680", // 读取访问期间符号的背景色，例如读取变量时。颜色必须透明，以免隐藏下面的修饰效果。
 		"editor.wordHighlightStrongBackground": "#6a6a9680", // 写入访问过程中符号的背景色，例如写入变量时。颜色必须透明，以免隐藏下面的修饰效果。
 		"editorWhitespace.foreground": "#464741", // 编辑器中空白字符的颜色
 		"editorIndentGuide.activeBackground": "#767771", // 编辑器活动缩进参考线的颜色。
-		"editorGroupHeader.tabsBackground": "#2c2c2c", // 启用选项卡时编辑器组标题的背景颜色。编辑器组是编辑器的容器。
+		"editorGroupHeader.tabsBackground": "#373737", // 启用选项卡时编辑器组标题的背景颜色。编辑器组是编辑器的容器。
 		"editorGroup.dropBackground": "#41433980", // 拖动编辑器时的背景颜色。此颜色应有透明度，以便编辑器内容能透过背景。
 		"widget.shadow": "#00000098", // 编辑器内小组件(如查找/替换)的阴影颜色
 		"progressBar.background": "#75715E", // 表示长时间操作的进度条的背景色。
@@ -52,18 +52,18 @@
 		"badge.foreground": "#f8f8f2", // Badge 前景色。Badge 是小型的信息标签，如表示搜索结果数量的标签。
 		"panel.border": "#414339", // 将面板与编辑器隔开的边框的颜色。面板显示在编辑区域下方，包含输出和集成终端等视图。
 		"settings.focusedRowBackground": "#4143395A", // 聚焦时设置行的背景色。
-		"titleBar.activeBackground": "#2c2c2c", // 窗口处于活动状态时的标题栏背景色。
+		"titleBar.activeBackground": "#3d3d3d", // 窗口处于活动状态时的标题栏背景色。
 		"statusBar.noFolderBackground": "#414339", // 没有打开文件夹时状态栏的背景色。状态栏显示在窗口底部。
-		"statusBar.debuggingBackground": "#75715E", // 调试程序时状态栏的背景色。状态栏显示在窗口底部
+		"statusBar.debuggingBackground": "#676458", // 调试程序时状态栏的背景色。状态栏显示在窗口底部
 		"statusBarItem.remoteBackground": "#AC6218", // 状态栏上远程指示器的背景色。
 		"ports.iconRunningProcessForeground": "#ccccc7", // 具有关联的正在运行的进程的端口图标颜色。
-		"sideBarSectionHeader.background": "#272822", // 侧边栏部分标题背景色。此侧边栏是资源管理器和搜索等视图的容器。侧边栏部分是在侧边栏中嵌套的视图。
+		"sideBarSectionHeader.background": "#3a3a3a", // 侧边栏部分标题背景色。此侧边栏是资源管理器和搜索等视图的容器。侧边栏部分是在侧边栏中嵌套的视图。
 		"pickerGroup.foreground": "#75715E", // 快速选取器分组标签的颜色。
-		"input.background": "#414339", // 输入框背景色。
+		"input.background": "#3e3e3c", // 输入框背景色。
 		"inputOption.activeBorder": "#75715E", // 输入字段中已激活选项的边框颜色。
 		"focusBorder": "#75715E", // 焦点元素的整体边框颜色。此颜色仅在不被其他组件覆盖时适用。
 		"editorWidget.background": "#2c2c2c", // 编辑器组件(如查找/替换)背景颜色。
-		"debugToolBar.background": "#2c2c2c", // 调试工具栏背景颜色。
+		"debugToolBar.background": "#2e2e2e", // 调试工具栏背景颜色。
 		"diffEditor.insertedTextBackground": "#4b661680", // 已插入的文本的背景色。颜色必须透明，以免隐藏下面的修饰效果。
 		"diffEditor.removedTextBackground": "#90274A70", // 已删除的文本的背景色。颜色必须透明，以免隐藏下面的修饰效果。
 		"inputValidation.errorBackground": "#90274A", // 输入验证结果为错误级别时的背景色

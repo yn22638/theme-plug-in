@@ -1,8 +1,8 @@
 {
   "name": "yn-theme",
-  "displayName": "yn",
+  "displayName": "yn-theme",
   "description": "Welcome to the Matthew theme plugin.",
-  "publisher": "matthew",
+  "publisher": "braveMan",
   "version": "0.0.2",
   "icon": "theme-logo.png",
   "engines": {

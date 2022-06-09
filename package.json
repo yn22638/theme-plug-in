@@ -1,9 +1,10 @@
 {
-  "name": "yn",
+  "name": "yn-theme",
   "displayName": "yn",
-  "description": "Let's Go!",
-  "publisher": "yntheme",
-  "version": "0.0.1",
+  "description": "Welcome to the Matthew theme plugin.",
+  "publisher": "matthew",
+  "version": "0.0.2",
+  "icon": "theme-logo.png",
   "engines": {
     "vscode": "^1.66.0"
   },

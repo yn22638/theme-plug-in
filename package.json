@@ -3,7 +3,7 @@
   "displayName": "yn-theme",
   "description": "Welcome to the Matthew theme plugin.",
   "publisher": "braveMan",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "theme-logo.png",
   "engines": {
     "vscode": "^1.66.0"
